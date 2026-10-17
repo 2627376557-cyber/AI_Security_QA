@@ -1,0 +1,37 @@
+
+# Python虚拟环境
+venv/
+.venv/
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# 构建文件
+*.egg-info/
+build/
+dist/
+
+# API密钥和私密环境配置
+.env
+.env.*
+!.env.example
+
+# 数据库、备份和本地情报文件
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# 运行日志
+logs/
+*.log
+
+# IDE配置
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
